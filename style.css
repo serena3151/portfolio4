@@ -1,0 +1,82 @@
+
+h1 {
+    color:#80ff;
+    margin-left: 30px;
+}
+
+/* {
+    border: solid;
+}
+*/
+p{
+    text-align: center;
+}
+.header{
+    background-color:#ff9080;
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:30px
+
+}
+.links a{
+    margin-left:10px
+}
+.games{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+.game{
+    position:relative;
+
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    opacity: 0;
+
+}
+.game:hover p{
+    opacity: 1;
+}
+.game:hover img{
+    opacity:0.3
+}
+a:link{
+    color: purple; 
+    text-decoration:none
+
+}
+a:visited{
+    color:cyan;
+    text-decoration:none
+}
+a:hover{
+    color:fuchsia;
+    text-decoration:underline
+}
+.footer{
+    display:flex;
+    justify-content:flex-end
+}
+
+body{
+    background-color: #808080;
+}
+
+
+
+
+
+/*<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"> <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js">
+<script>
+paste from config
+change const to var
+</script>
+firebase.initializeApp(firebaseConfig); </script>
